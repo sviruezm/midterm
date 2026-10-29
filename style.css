@@ -1,1 +1,165 @@
+/* =========================
+   Overall page appearance
+   ========================= */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #222222;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main article container */
+
+#wrapper {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* =========================
+   Publication masthead
+   ========================= */
+
+.masthead {
+    text-align: center;
+    border-bottom: 2px solid #222222;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+}
+
+.publication-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.publication-tagline {
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0.5px;
+    margin: 5px 0 0;
+}
+
+/* =========================
+   Article header
+   ========================= */
+
+.category {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1.15;
+    font-weight: bold;
+    margin: 0 0 16px;
+}
+
+.dek {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555555;
+    margin: 0 0 18px;
+}
+
+.byline {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 24px;
+}
+
+.separator {
+    padding: 0 8px;
+    color: #999999;
+}
+
+/* =========================
+   Article paragraphs
+   ========================= */
+
+p {
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 1.3;
+    margin-top: 30px;
+}
+
+/* =========================
+   Photographs
+   ========================= */
+
+.lead-figure {
+    margin: 25px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+/* =========================
+   Pullquote
+   ========================= */
+
+blockquote {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+    border-left: 3px solid #777777;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+
+/* =========================
+   Responsive adjustments
+   ========================= */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #wrapper {
+        padding: 10px;
+    }
+
+    .publication-name {
+        font-size: 23px;
+        letter-spacing: 1.5px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .dek {
+        font-size: 16px;
+    }
+}
